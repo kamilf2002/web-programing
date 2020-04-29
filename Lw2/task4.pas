@@ -26,5 +26,5 @@ BEGIN
   WRITELN;
   WRITELN('First Name: ', ReadQueryString('first_name'));
   WRITELN('Last Name: ', ReadQueryString('last_name'));
-  WRITELN('Age: ', ReadQueryString('age'));
+  WRITELN('Age: ', ReadQueryString('age'))
 END.
