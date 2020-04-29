@@ -10,7 +10,3 @@ BEGIN
   WRITELN(GetEnv('HTTP_USER_AGENT'));
   WRITELN(GetEnv('HTTP_HOST'))
 END.
-
-
-
-
