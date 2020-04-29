@@ -8,9 +8,9 @@ VAR
   Query: STRING;
   I: INTEGER;
 BEGIN
-  Query := GetEnv('QUERY_STRING');
   WRITELN('Content-Type: text/plain');
   WRITELN;
+  Query := GetEnv('QUERY_STRING');
   FOR I := 1 TO Length(Query)
   DO
     BEGIN
@@ -28,5 +28,5 @@ BEGIN
     WRITELN('land');
   IF Ch = '2'
   THEN
-    WRITELN('sea');
+    WRITELN('sea')
 END.
