@@ -28,29 +28,7 @@
 	{
 		echo 'Данные некоректны';
 	}
-	
-	function checkIndentifier(string $text)
-	{
-		$errors = false;
-		if (!isDigit($text[0]))
-		{
-			for ($i = 0; $i < strlen($text); $i++)
-			{
-				if (!isSymbol($text[$i]))
-				{
-					echo 'В идентификаторе не может содержаться ' . "'" . $text[$i] . "'.\n";
-					$errors = true;
-				}
-			}
-		}
-		else
-		{
-			echo "Идентификатор не может начинаться с цифры.\n";
-			$hasErrors = true;
-		}
-		echo $errors ? 'no' : 'yes';
-	}
-function isDigit(string $ch): bool
+        function isDigit(string $ch): bool
 	{
 		return $ch == '0' || $ch == '1' || $ch == '2' || $ch == '3' || $ch == '4' || $ch == '5' || $ch == '6' || $ch == '7' || $ch == '8'|| $ch == '9';
 	}
