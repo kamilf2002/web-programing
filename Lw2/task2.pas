@@ -16,7 +16,7 @@ BEGIN
     BEGIN
       IF(Query[I] = '=')
       THEN
-        Ch := Query[I + 1];
+        Ch := Query[I + 1]
     END;
   IF (Ch > '0') AND (Ch < '3')
   THEN
