@@ -16,7 +16,7 @@ BEGIN
       IF Str[I] = '&'
       THEN
         BREAK;
-      Val := Val + Str[I];
+      Val := Val + Str[I]
     END;
   ReadQueryString := Val
 END;
