@@ -3,7 +3,7 @@
 	
 	$text = isset($_GET['identifier']) ? $_GET['identifier'] : null;
 	
-	if ($inputText !== null && strlen($text) > 0)
+	if ($text !== null && strlen($text) > 0)
 	{
 		$errors = false;
 		if (!isDigit($text[0]))
