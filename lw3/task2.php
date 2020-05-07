@@ -10,7 +10,7 @@
 		{
 			for ($i = 0; $i < strlen($text); $i++)
 			{
-				if (!isAllowedSymbol($text[$i]))
+				if (!isSymbol($text[$i]))
 				{
 					echo 'В идентификаторе не может содержаться ' . "'" . $text[$i] . "'.\n";
 					$errors = true;
