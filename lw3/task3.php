@@ -5,7 +5,7 @@
 	
 	if ($text !== null && strlen($text) > 0)
 	{
-    $difficulty = strlen($text) * 4;
+                $difficulty = strlen($text) * 4;
 		$digitsCount = 0;
 		$upperLettersCount = 0;
 		$lowerLettersCount = 0;
@@ -58,7 +58,7 @@
 		echo 'Введены некорректные данные';
 	}
 
-  function isDigit(string $ch): bool
+        function isDigit(string $ch): bool
 	{
 		return $ch == '0' || $ch == '1' || $ch == '2' || $ch == '3' || $ch == '4' || $ch == '5' || $ch == '6' || $ch == '7' || $ch == '8'|| $ch == '9';
 	}
