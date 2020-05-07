@@ -1,9 +1,9 @@
 <?php
 	header("Content-Type: text/plain");
 	
-	$Text = isset($_GET['text']) ? $_GET['text'] : null;
+	$text = isset($_GET['text']) ? $_GET['text'] : null;
 	
-	if ($Text !== null && strlen($Text) > 0)
+	if ($text !== null && strlen($text) > 0)
 	{
 		$formattedString = '';
 		$isBlankFound = true;
