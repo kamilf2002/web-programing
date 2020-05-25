@@ -3,11 +3,11 @@ header("Content-Type: text/plain");
 $text = isset($_GET['text']) ? $_GET['text'] : null;
 if ($text == null)
 {
-  echo 'вы не передали параметр'
+  echo 'вы не передали параметр';
 }
 else
 {
-  echo removeExtraBlanks($text)
+  echo removeExtraBlanks($text);
 }
 
 
@@ -15,7 +15,7 @@ function removeExtraBlanks(string $text): string
 {
   $result = ' ';
   $isBlank = true;
-  for ($1 = 0; $i < strlen($text); ++$i) 
+  for ($i = 0; $i < strlen($text); ++$i) 
   {
     if ($text[$i] == ' ')
     {
@@ -28,8 +28,8 @@ function removeExtraBlanks(string $text): string
     else
     {
       $result .= $text[$i];
-      $isBlank = false
+      $isBlank = false;
     }
   }
-  return $result
+  return $result;
 }

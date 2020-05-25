@@ -7,7 +7,7 @@ if ($identifier == null)
 }
 else
 {
-  if (checkIdentifier($identidier))
+  if (checkIdentifier($identifier))
   {
     echo $identifier . ' является идентификатором';
   }
