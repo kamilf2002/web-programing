@@ -33,7 +33,7 @@ img.img_about_me
 
 .top-menu-text
 {
-    font-family: Georgia;
+    font: normal 19px Georgia;
     margin-left: 10px;
     color: #464646;
 }
@@ -53,16 +53,6 @@ img.img_about_me
 .top-menu-about-me:hover 
 {
   background: #15a98c;
-}
-
-
-.top-menu-item
-{
-  font: 400 19px/1.1 'Georgia', sans-serif;
-  display: inline-block;
-  position: relative;
-  margin-right: 20px;
-  padding: 20px;
 }
 
 .menu-link
@@ -150,7 +140,8 @@ img.img_about_me
     margin-top: 40px;
     margin-bottom: 25px;
     width: 1200px;
-    font: normal 32px OpenSansRegular;
+    font: 36px/1.5 Open Sans;
+    color: #333333
 }
 
 .favourite-films-container
@@ -172,13 +163,13 @@ img.img_about_me
 
 .film-name
 {
-    font: bold 20px OpenSansBold;
+    font: bold 20px/1.5 Open Sans;
     color: #333333;
 }
 
 .film-description
 {
-    font: normal 16px/1.6 Georgia;
+    font: normal 16px Georgia;
     color: #333333;
 }
 
@@ -260,7 +251,7 @@ img.img_about_me
 
 .quotes-author
 {
-    font: normal 16px "Open Sans Semibold";
+    font: boild 16px Open Sans;
     margin-top: 0;
     padding: 0;
     width: 440px;
@@ -270,7 +261,7 @@ img.img_about_me
 
 .favourites
 {
-    font: normal 22px OpenSansSemibold;
+    font: 600 24px Open Sans;
     color: #15a98c;
     margin: 0;
     margin-bottom: 30px;
@@ -278,32 +269,36 @@ img.img_about_me
 }
 .favourite-element
 {
-    font: normal 18px Georgia;
+    font: normal 19px Georgia;
     margin-bottom: 15px;
+    color: #555555
 }
 
 .first-heading
 {
-    font: normal 40px OpenSansBold;
+    font: bold 48px Open Sans;
     margin: 0;
-    padding: 0;  
+    padding: 0; 
+    color: #333333; 
 }
 
 .second-heading
 {
-    font-family: OpenSansRegular;
+    font: 400 36px Open Sans;
     font-size: 30px;
     margin: 0;
     margin-bottom: 30px;
     padding: 0;
+    color: #333333;
 }
 
 .text
 {
-    font: normal 20px/1.8 Georgia;
+    font: normal 19px/1.8 Georgia;
     margin: 0;
     margin-bottom: 50px;
     padding: 0;
+    color: #555555
 }
 
 .green-line
