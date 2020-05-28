@@ -1,21 +1,3 @@
-
-@font-face
-{
-    font-family: OpenSansSemibold;
-    src: url("../fonts/opensans_semibold.ttf");
-}
-
-@font-face
-{
-    font-family: OpenSansBold;
-    src: url("../fonts/opensans_bold.ttf");
-}
-@font-face
-{
-    font-family: OpenSansRegular;
-    src: url("../fonts/opensans_regular.ttf");
-}
-
 .top-menu
 {
     display: flex;
