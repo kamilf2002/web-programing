@@ -9,7 +9,7 @@ else
   feedbackPage();
 }
 
-function getUser(): string
+function getUser()
 {
   $dataFeedback = [];
   $dataFeedback['success'] = true;    
