@@ -28,10 +28,10 @@ function  calc(calcStr) {
             break;
         }
 
-        if (((symbAndNum[i] === '*') || 
-             (symbAndNum[i] === '/') || 
-             (symbAndNum[i] === '+') || 
-             (symbAndNum[i] === '-') ) && 
+        if (((symbAndNum[i] == '*') || 
+             (symbAndNum[i] == '/') || 
+             (symbAndNum[i] == '+') || 
+             (symbAndNum[i] == '-') ) && 
              (isFinite(symbAndNum[i + 1])) && 
              (isFinite(symbAndNum[i + 2])) ) {
             symbAndNum[i] = mathematics(symbAndNum[i], symbAndNum[i + 1], symbAndNum[i + 2]);
